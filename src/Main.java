@@ -15,6 +15,7 @@ public class Main {
             String operator = map.get(SubjectsEnum.OPERATOR);
 
             Calc calc = new Calc();
+			System.out.println("");
 
             if (operator.equals("+")) {
                 System.out.println("Add : " + calc.doAdd(term1, term2));
